@@ -37,20 +37,19 @@ Luego de definir la tarea, se llevó a cabo el testing de la aplicación web con
 
 A partir de la interacción de los usuarios con las interfaces de la plataforma, pudimos identificar los siguientes elementos que causan problemas en el proceso de compra:
 
-1. **La búsqueda de "Cámara web" en la barra de búsqueda principal no entrega resultados, siendo que sí existen artículos en la tienda. Sin embargo, buscar "web cam" si encuentra resultados.** Esto puede dar a entender que el artículo no existe en la tienda, terminando el proceso de compra en un fallo.
-2. **El botón de "Agregar a la Bolsa" genera una reacción en el encabezado de la página, lejos del botón.** Esto puede causar que el usuario no vea la notificación de que el objeto fue agregado a la bolsa, como ocurrió en el experimento.
-3. **No es claro que el ícono de "Bolsa" es interactuable.** Los usuarios tendieron a hacer clic en distintos elementos alrededor de la Bolsa (el círculo rojo, la notificación, etc), pero no la Bolsa en sí, la cual deben presionar para continuar la compra.
-4. **Al pasar a pagar, se presentan los dos formularios presentes para completar (con cuenta Ripley o como Invitado).** Esto causa que el usuario instintivamente complete ambos antes de darse cuenta que sólo necesita completar uno.
-5. **Un usuario nuevo no comprende la diferencia entre los distintos medios de pago (webpay, App chek, etc).** La plataforma no provee forma obvia de ayudar a un usuario nuevo a elegir la opción adecuada para la compra.
-6. **Al ordenar por "Menor Precio", el primer elemento que muestra no es la cámara más barata.** El usuario reportó que había pensado que la página no había respondido al input, lo que se evidencia en que haya vuelto a presionar el filtro.
-7. **El nombre "Crear dirección" para seleccionar la dirección de entrega a domicilio no es claro.** Al leer el botón el usuario pensó que era una acción distinta a elegir la dirección para el despacho.
+1. **El botón de "Agregar a la Bolsa" genera una reacción en el encabezado de la página, lejos del botón.** Esto puede causar que el usuario no vea la notificación de que el objeto fue agregado a la bolsa, como ocurrió en el experimento.
+2. **No es claro que el ícono de "Bolsa" es interactuable.** Los usuarios tendieron a hacer clic en distintos elementos alrededor de la Bolsa (el círculo rojo, la notificación, etc), pero no la Bolsa en sí, la cual deben presionar para continuar la compra.
+3. **Al pasar a pagar, se presentan los dos formularios presentes para completar (con cuenta Ripley o como Invitado).** Esto causa que el usuario instintivamente complete ambos antes de darse cuenta que sólo necesita completar uno.
+4. **Un usuario nuevo no comprende la diferencia entre los distintos medios de pago (webpay, App chek, etc).** La plataforma no provee forma obvia de ayudar a un usuario nuevo a elegir la opción adecuada para la compra.
+5. **Al ordenar por "Menor Precio", el primer elemento que muestra no es la cámara más barata.** El usuario reportó que había pensado que la página no había respondido al input, lo que se evidencia en que haya vuelto a presionar el filtro.
+6. **El nombre "Crear dirección" para seleccionar la dirección de entrega a domicilio no es claro.** Al leer el botón el usuario pensó que era una acción distinta a elegir la dirección para el despacho.
 
 ## Conclusiones
 
 A partir del análisis del testeo a la plataforma, concluimos que los siguientes 3 errores son prioritarios a ser arreglados para facilitar el proceso de compra:
 
-* **2. El botón de "Agregar a la Bolsa" genera una reacción en el encabezado de la página, lejos del botón.**
-* **3. No es claro que el ícono de "Bolsa" es interactuable.**
-* **4. Al pasar a pagar, se presentan los dos formularios presentes para completar (con cuenta Ripley o como Invitado).**
+* **1. El botón de "Agregar a la Bolsa" genera una reacción en el encabezado de la página, lejos del botón.**
+* **2. No es claro que el ícono de "Bolsa" es interactuable.**
+* **3. Al pasar a pagar, se presentan los dos formularios presentes para completar (con cuenta Ripley o como Invitado).**
 
 Consideramos que estos errores son imperativos, debido a que generaron complicaciones en ambas instancias del experimento. Por lo tanto, solucionar dichos problemas logrará que el proceso de compra sea mucho más simple e intuitivo.
