@@ -1,40 +1,55 @@
 # Informe Observación del Usuario
 
-1. Defina la comunidad usuaria y sus 3 características inolvidables.
+Integrantes:
 
-    Comunidad Usuaria: Adultos de entre 30 y 50 años.
+* Diego Altamirano
+* Pablo Aravena
+* Javier Mendoza
 
-    * Medianamente familiarizados con la tecnología.
-    * Están acostumbrados a comprar en tienda física, no así en tienda online.
-    * Tienen un poder adquisitivo relativamente alto.
+El presente documento es un informe respecto al testeo de la plataforma de retail online de la tienda [Ripley](https://simple.ripley.cl/).
 
-2. De acuerdo a la asignación de sistema y tarea general para su grupo, defina la tarea específica que será encargada al usuario de la comunidad, es decir, indique todos los datos que el usuario debe ingresar y qué resultado debe obtener. La Tarea específica deberá contemplar casos no triviales que permitan realizar una mayor exploración de las interfaces para detectar dificultades de uso y errores de diseño de las mismas.
+## Comunidad Usuaria
 
-    Tarea específica: Comprar una webcam o cámara web.
+Para llevar a cabo el testeo, se definió la Comunidad Usuaria de adultos entre 30 y 50 años, la cual posee las siguientes características inolvidables:
 
-        * La más barata posible.
-        * Pedir una entrega a Domicilio.
-        * Fecha de entrega lo más pronto posible.
+* Está medianamente familiarizado con la tecnología y el retail online.
+* Está acostumbrado a comprar en tienda física, no así en tienda online.
+* Tienen un poder adquisitivo relativamente alto.
 
-3. Busque un usuario que pueda dedicarles 15 minutos para testar el sistema asignado y la tarea específica. Debe captar las reacciones faciales del usuario.
-4. Analice la interacción del usuario y encuentre 3 errores principales que haya que corregir en el sistema testeado.
+## Definición de la Tarea específica
 
-    A partir de la interacción del usuario con las interfaces de la tienda Ripley, pudimos identificar los siquientes elementos que causan problemas en el proceso de compra:
+Para hacer el testing de la plataforma, se definió como tarea objetivo para los usuarios comprar una cámara web (o webcam), siguiendo los siguientes requisitos:
 
-    [//]: # (Ideas sacadas de los 2 videos. No sé cuáles será mejor mantener o si quieren agregar otras.)
-    * La búsqueda de "Cámara web" en la barra de búsqueda principal no entrega resultados, siendo que sí existen artículos en la tienda. Sin embargo, buscar "web cam" si encuentra resultados.
-    * El botón de "Agregar a la Bolsa" genera una reacción en el encabezado de la página, lejos del botón. Esto puede causar que el usuario no vea la notificación de que el objeto fue agregado a la bolsa.
-    * No es claro que el ícono de "Bolsa" es interactuable.
-    * Al pasar a pagar, se presentan los dos formularios presentes para completar (con cuenta Ripley o como Invitado). Esto causa que el usuario instintivamente complete ambos antes de darse cuenta que sólo necesita completar uno.
-    * Un usuario nuevo no comprende la diferencia entre los distintos medios de pago (webpay, App chek, etc).
-    * Al ordenar por "Menor Precio", el primer elemento que muestra no es la cámara más barata.
-    * El nombre "Crear dirección" para seleccionar la dirección de entrega a domicilio no es claro.
+1. A partir de la página de inicio, se debe comprar una cámara web.
+2. Debe elegir la cámara más barata que esté disponible en la tienda.
+3. Se debe hacer la compra con despacho a domicilio.
+4. Se debe hacer la compra lo más pronto posible.
 
-5. Suba a su repo Git forkeado del repo del profesor un informe (Markdown o PDF) de a lo más 2 páginas (1 hoja por ambos lados) con:
+De esta forma, podremos analizar los sistemas de búsqueda de artículos en la tienda (1), las interfaces para revisar disponibilidad y poder elegir entre distintas opciones, usando filtros u ordenamiento (2) y analizar la interfaz para poder pagar la compra y determinar el tipo de despacho (3 y 4).
 
-    * Integrantes del grupo y sistema testeado.
-    * Definición de la comunidad usuaria.
-    * Lista de 3 errores prioritarios de arreglar basados en la interacción observada.
+## Testing
 
-* Suba a el vídeo a un sistema de almacenamiento online (youtube, dropbox).
-* Suba como comentario a Aula el enlace a su repo Git.
+Luego de definir la tarea, se llevó a cabo el testing de la aplicación web con 2 usuarios que pertenecen a la comunidad usuaria. A partir de la interacción de los usuarios, se llegaron a los siguientes resultados:
+
+* Ambos usuarios lograron completar la tarea satisfactoriamente.
+* Ambos usuarios presentaron dificultades en la ejecución de la tarea.
+* Ambos usuarios utilizaron distintos métodos para lograr los pasos (1) y (2).
+
+A partir de la interacción de los usuarios con las interfaces de la plataforma, pudimos identificar los siguientes elementos que causan problemas en el proceso de compra:
+
+1. **El botón de "Agregar a la Bolsa" genera una reacción en el encabezado de la página, lejos del botón.** Esto puede causar que el usuario no vea la notificación de que el objeto fue agregado a la bolsa, como ocurrió en el experimento.
+2. **No es claro que el ícono de "Bolsa" es interactuable.** Los usuarios tendieron a hacer clic en distintos elementos alrededor de la Bolsa (el círculo rojo, la notificación, etc), pero no la Bolsa en sí, la cual deben presionar para continuar la compra.
+3. **Al pasar a pagar, se presentan los dos formularios presentes para completar (con cuenta Ripley o como Invitado).** Esto causa que el usuario instintivamente complete ambos antes de darse cuenta que sólo necesita completar uno.
+4. **Un usuario nuevo no comprende la diferencia entre los distintos medios de pago (webpay, App chek, etc).** La plataforma no provee forma obvia de ayudar a un usuario nuevo a elegir la opción adecuada para la compra.
+5. **Al ordenar por "Menor Precio", el primer elemento que muestra no es la cámara más barata.** El usuario reportó que había pensado que la página no había respondido al input, lo que se evidencia en que haya vuelto a presionar el filtro.
+6. **El nombre "Crear dirección" para seleccionar la dirección de entrega a domicilio no es claro.** Al leer el botón el usuario pensó que era una acción distinta a elegir la dirección para el despacho.
+
+## Conclusiones
+
+A partir del análisis del testeo a la plataforma, concluimos que los siguientes 3 errores son prioritarios a ser arreglados para facilitar el proceso de compra:
+
+* **1. El botón de "Agregar a la Bolsa" genera una reacción en el encabezado de la página, lejos del botón.**
+* **2. No es claro que el ícono de "Bolsa" es interactuable.**
+* **3. Al pasar a pagar, se presentan los dos formularios presentes para completar (con cuenta Ripley o como Invitado).**
+
+Consideramos que estos errores son imperativos, debido a que generaron complicaciones en ambas instancias del experimento. Por lo tanto, solucionar dichos problemas logrará que el proceso de compra sea mucho más simple e intuitivo.
