@@ -53,3 +53,8 @@ A partir del análisis del testeo a la plataforma, concluimos que los siguientes
 * **3. Al pasar a pagar, se presentan los dos formularios presentes para completar (con cuenta Ripley o como Invitado).**
 
 Consideramos que estos errores son imperativos, debido a que generaron complicaciones en ambas instancias del experimento. Por lo tanto, solucionar dichos problemas logrará que el proceso de compra sea mucho más simple e intuitivo.
+
+## Evidencias
+
+Se han guardado los videos en un drive, en nuestro caso, tenemos evidencia de dos personas que intentaron realizar el experimento.
+* Link Drive: https://drive.google.com/drive/folders/1F_AtnZmWjAcKd5SdUR_hhzg-TLikBsZq?usp=sharing
