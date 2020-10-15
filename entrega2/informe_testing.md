@@ -6,6 +6,9 @@
 
 Se realizaron pruebas de funcionalidad a un prototipo con un usuario perteneciente al grupo target para nuestro proyecto, es decir, un estudiante de la universidad que usa el _SPA_ actual. Se le presentó nuestro _mock-up_ de baja fidelidad (prototipo) del nuevo _SPA_, el cual fue desarrollado principalmente en [_Google JamBoard_](https://jamboard.google.com/d/1SR3N5V2sgNoGz49jrmlWJ8i5pyWl8ZvTYXfgFCej4Po/edit?usp=sharing). La interacción completa fue grabada y a través del _feedback_ obtenido de parte del usuario se le realizaron mejoras al modelo actual.
 
+![Mockup de Baja Fidelidad vista 1](img/Mockup-BF-1.PNG "Mockup de Baja Fidelidad vista 1")
+![Mockup de Baja Fidelidad vista 2](img/Mockup-BF-2.PNG "Mockup de Baja Fidelidad vista 2")
+
 ### Tareas Evaluadas
 
 Se le entregó al usuario 2 tareas a realizar:
@@ -34,3 +37,6 @@ Luego de recibir el feedback de parte del usuario, se arreglaron distintos probl
 2. Añadir un **_"drop-down menu"_** en el campo de _"motivación"_ con valores pre-fijados por nosotros, pensando en las motivaciones más comunes de un estudiante. Estas se asemejan bastante a las opciones ya presentes en el _SPA_ actual.
 
 Finalmente, se mejoró el aspecto visual completo al re-hacer todo el _mock-up_ en _Adobe XD_, pasando entonces a ser un diseño de alta fidelidad. Las imágenes de las vistas que conforman el _mock-up_ más reciente se encuentran en el repositorio de GitHub.
+
+![Modelo de Alta Fidelidad vista 1](img/Web_1920-1.png "Modelo de Alta Fidelidad vista 1")
+![Modelo de Alta Fidelidad vista 2](img/Web_1920-2.png "Modelo de Alta Fidelidad vista 2")
