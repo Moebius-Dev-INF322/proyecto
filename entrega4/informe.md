@@ -98,6 +98,8 @@ Consiste en un frame que contiene información de la ayudantía seleccionada (no
 
 ![Modelo de Alta Fidelidad vista 2](Web_1920-2.png "Modelo de Alta Fidelidad vista 2")
 
+El resto de vistas, junto con sus variantes para ser testeadas, se encuentran en el prototipo de Adobe XD en la carpeta _entrega3_ bajo el nombre **Mockup-IU.xd**.
+
 ## Resultado de Test del Prototipo
 
 ### Test Prototipo de Baja Fidelidad
@@ -125,8 +127,8 @@ Finalmente, se mejoró el aspecto visual completo al re-hacer todo el _mock-up_ 
 
 Se realizaron pruebas de funcionalidad al prototipo de alta fidelidad y con un usuario perteneciente al grupo target para nuestro proyecto, es decir, un estudiante de la universidad que usa el _SPA_ actual, el cual además pertenece a otro grupo de desarrollo basado en Lean UX. Se pidió realizar las mismas tareas previamente realizadas.
 
-En nuestros testeos, la ejecución de las tareas se realizó sin problemas, demostrando que la interfaz cumplía su propósito.
+En nuestros testeos, la ejecución de las tareas se realizó sin problemas, demostrando que la interfaz cumplía su propósito. Por otro lado, se testearon también las funcionalidades de postular a ayudantías utilizando el sistema de recomendaciones y contactar a un profesor. En este aspecto, la ejecución de las tareas también fue exitosa.
 
-Un pequeño _feedback_ que recibimos fue respecto al mensaje posterior a contactarse con un profesor, en concreto, que se comunique mejor cuando el mensaje fue enviado con éxito
+Un pequeño _feedback_ que recibimos fue respecto al mensaje posterior a contactarse con un profesor, en concreto, que se comunique mejor cuando el mensaje fue enviado con éxito.
 
-Concluímos del análisis de estos _tests_ que la hipótesis 1 es acertada, pues los alumnos aprecian bastante la facilidad de postulación y búsqueda de ayudantías, además de tomar menos tiempo para las tareas que en la versión original del _SPA Alumnos_, por lo que es bastante factible que su uso escale a más departamentos de carrera.
+Respecto a las hipótesis que fueron planteadas, concluímos del análisis de estos _tests_ que la hipótesis 1 es acertada, pues los alumnos aprecian bastante la facilidad de postulación y búsqueda de ayudantías, además de tomar menos tiempo para las tareas que en la versión original del _SPA Alumnos_, por lo que es bastante factible que su uso escale a más departamentos de carrera. Las hipótesis 2 y 3 también fueron corroboradas, al recibir retroalimentación de los usuarios que fueron testeados (tanto usuarios nuevos como experimentados), los cuales dieron un _feedback_ positivo respecto al rediseño de la plataforma. Finalmente, las hipótesis 4 y 5 también parecen confirmarse, pues se destacó la utilidad y la facilidad de uso de estas nuevas tareas incorporadas a la página web.
