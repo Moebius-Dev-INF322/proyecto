@@ -48,7 +48,7 @@ A partir de la definición y análisis de las Personas, se desprenden las siguie
 * Creemos que lograremos obtener más departamentos de carrera involucradas usando el portal si un alumno puede lograr postular a ayudantías rápidamente con una interfaz más intuitiva para elegir las ayudantías a las cuales postular.
 * Creemos que lograremos obtener más usuarios que a futuro quieren postular si un alumno puede lograr observar características generales de cada ramo, como sus pagas, cantidad de postulaciones, etc, mediante una función para ver los datos relacionados a sueldos, frecuencia de postulación y ayudantes aceptados por ramo.
 * Creemos que lograremos mantener usuarios frecuentes luego de las postulaciones si un alumno puede lograr seguir viendo ramos una vez terminado el proceso de postulación, mediante una función para ver todos los ramos y sus cargos de ayudante después de haber pasado la fecha de inscripciones.
-* **Hipótesis 4**
+* Creemos que lograremos motivar a los ayudantes a inscribir ayudantías específicas si un alumno puede recibir recomendaciones de ayudantias, mediante una función de recomendación, la cual señale un punteo breve acerca de las ventajas y razónes por las que postular a esa ayudantía supondría una buena experiencia
 * **Hipótesis 5 (tienen que ser 4 ó 5)**
 
 ## Prototipo
