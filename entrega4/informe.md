@@ -22,26 +22,24 @@ A inicio de este año, esta plataforma fue modernizada en un proceso que incluye
 
 * **Persona**: Alumna/o de la UTFSM
 * **Demografía**:
-    * Alumna/o universitario.
-    * Conoce bastante sobre redes sociales (las usa a diario).
-    * Posee bajos fondos monetarios.
-    * Entre 18 a 27 años.
-    * Manejo relativamente decente de la tecnología.
-
+  * Alumna/o universitario.
+  * Conoce bastante sobre redes sociales (las usa a diario).
+  * Posee bajos fondos monetarios.
+  * Entre 18 a 27 años.
+  * Manejo relativamente decente de la tecnología.
 
 * **Comportamiento**:
-    * Quiere ser ayudante de algún ramo.
-    * Tiene muchas cosas que hacer y ramos por los que estudiar.
-    * Evita involucrarse mentalmente con textos de más de 5 párrafos.
-    * No le teme a navegar sitios web desde el celular.
-
+  * Quiere ser ayudante de algún ramo.
+  * Tiene muchas cosas que hacer y ramos por los que estudiar.
+  * Evita involucrarse mentalmente con textos de más de 5 párrafos.
+  * No le teme a navegar sitios web desde el celular.
 
 * **Necesidades, obstáculos y deseos**:
-    * Quiere postularse como ayudante rápidamente. Su tiempo es valioso.
-    * No entiende cómo postular a un curso.
-    * Quiere tener mayor poder monetario.
-    * No sabe cómo buscar cursos.
-    * Quiere adquirir mayor experiencia en su área laboral a través de ayudantías.
+  * Quiere postularse como ayudante rápidamente. Su tiempo es valioso.
+  * No entiende cómo postular a un curso.
+  * Quiere tener mayor poder monetario.
+  * No sabe cómo buscar cursos.
+  * Quiere adquirir mayor experiencia en su área laboral a través de ayudantías.
 
 ## Hipótesis
 
@@ -61,9 +59,10 @@ Para las vistas de alumnos, se desprenden las siguientes sub-vistas relacionadas
 
 Corresponde a la landing-page del sitio, es decir, la primera cosa que ven los estudiantes al ingresar con su cuenta, de manera de llegar rápidamente a lo más importante de la página. Este posee un *navbar* con las principales funcionalidades.
 
-##### Postulaciones Actuales
+#### Postulaciones Actuales
 
 Consiste en una vista de las postulaciones actuales del alumno en cuestión, con los campos de:
+
 * **Prioridad de Postulación**: en caso de que se quede en más de una ayudantía y el sobrecupo de horas haya sido rebasado.
 * **Logo Departamental**: de manera de facilitar a la vista el saber a qué departamento pertenece la postulación.
 * **Sigla y Nombre del Ramo**: para conocer de manera exacta el código identificador del ramo, además de su nombre completo.
@@ -72,20 +71,20 @@ Consiste en una vista de las postulaciones actuales del alumno en cuestión, con
 
 Además de estos campos, se posee un botón para cancelar una postulación en cualquier momento, el cual pediría una confirmación antes de realizar esta operación, así como también otro botón para crear una postulación que nos redirige a la vista de "*Crear Postulación*". Se permite el re-ordenamiento de las postulaciones mostradas según los campos mencionados previamente.
 
-##### Noticias
+#### Noticias
 
 Consiste en un feed, el que usa una pequeña parte del landing-site para poder ver las noticias respecto a las ayudantías y postulaciones en general, de manera que estas sean parte de las primeras cosas a ver, y que no sean ignoradas por los usuarios al ser dejadas en una vista propia.
 
-![Modelo de Alta Fidelidad vista 1](../entrega2/img/Web_1920-1.png "Modelo de Alta Fidelidad vista 1")
-
+![Modelo de Alta Fidelidad vista 1](Web_1920-1.png "Modelo de Alta Fidelidad vista 1")
 
 ### Vista Crear Postulación
 
 Consiste en la vista que contiene todo lo relacionado a la postulación e información de una ayudantía para un ramo arbitrario. Posee el mismo _navbar_ que la vista anterior.
 
-##### Crear Postulación
+#### Crear Postulación
 
 Posee una barra de búsqueda según _keywords_ dadas relacionadas al nombre completo o siglas de un ramo, además de filtros de búsqueda según **ramo** y **tipo de ayudantía** (de laboratorio, corrección o contacto). Las ayudantías a mostrar pueden ser re-ordenadas según distintos criterios basados en los siguientes campos:
+
 * **Sigla**: código identificador del ramo. Pueden ordenarse arbitrariamente según las posiciones dadas de los ramos en el _dropdown_ con el botón **+**.
 * **Departamento**: departamento al cual pertenece. Pueden ordenarse arbitrariamente según las posiciones dadas de los departamentos en el _dropdown_ con el botón **+**.
 * **Horas de Ayudantía**: el total de horas a trabajar semanalmente con esta ayudantía. Puede ordenarse de mayor a menor según las horas.
@@ -93,16 +92,16 @@ Posee una barra de búsqueda según _keywords_ dadas relacionadas al nombre comp
 * **Vacantes**: el número de vacantes disponibles para la ayudantía a postular. Puede ordenarse de menor a mayor según este atributo.
 * **Sueldo**: el total a pagar de manera mensual por esta ayudantía. Puede ordenarse de menor a mayor según este atributo.
 
-##### Ayudantía Seleccionada
+#### Ayudantía Seleccionada
+
 Consiste en un frame que contiene información de la ayudantía seleccionada (nombre completo del ramo, tipo y cantidad de horas de la ayudantía y sueldo) en la caja de texto más grande, además de una barra de texto para ingresar la prioridad de postulación respecto a las otras postulaciones y un menú de _dropdown_ para seleccionar una de las motivaciones pre-definidas. Luego de tener estos 2 inputs (prioridad y motivación) listos, se puede presianar el botón "**Crear Postulación**" para que esta se realice.
 
-
-![Modelo de Alta Fidelidad vista 2](../entrega2/img/Web_1920-2.png "Modelo de Alta Fidelidad vista 2")
-
+![Modelo de Alta Fidelidad vista 2](Web_1920-2.png "Modelo de Alta Fidelidad vista 2")
 
 ## Resultado de Test del Prototipo
 
-#### Test Prototipo de Baja Fidelidad
+### Test Prototipo de Baja Fidelidad
+
 Se realizaron pruebas de funcionalidad a un prototipo de baja fidelidad y con un usuario perteneciente al grupo target para nuestro proyecto, es decir, un estudiante de la universidad que usa el _SPA_ actual.
 
 Se le entregó al usuario 2 tareas a realizar:
@@ -122,7 +121,7 @@ Luego de recibir el feedback de parte del usuario, se arreglaron distintos probl
 
 Finalmente, se mejoró el aspecto visual completo al re-hacer todo el _mock-up_ en _Adobe XD_, pasando entonces a ser un diseño de alta fidelidad.
 
-#### Test Prototipo de Alta Fidelidad
+### Test Prototipo de Alta Fidelidad
 
 Se realizaron pruebas de funcionalidad al prototipo de alta fidelidad y con un usuario perteneciente al grupo target para nuestro proyecto, es decir, un estudiante de la universidad que usa el _SPA_ actual, el cual además pertenece a otro grupo de desarrollo basado en Lean UX. Se pidió realizar las mismas tareas previamente realizadas.
 
