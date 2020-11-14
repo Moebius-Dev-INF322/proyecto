@@ -1,0 +1,5 @@
+# markdown files
+*.md
+# docker related files
+*ockerfile
+.dockerignore
